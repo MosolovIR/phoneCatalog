@@ -1,8 +1,8 @@
 # Задание № 6: Функция для добавления новой записи в телефонный справочник:
-def add_user(phone_book, lastname, firstname, number, jobInfo):
+def add_user(phone_book, lastName, firstName, number, jobInfo):
     newLine = {
-        'Фамилия': lastname,
-        'Имя': firstname,
+        'Фамилия': lastName,
+        'Имя': firstName,
         'Телефон': number,
         'Должность': jobInfo
     }
