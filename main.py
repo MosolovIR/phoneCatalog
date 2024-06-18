@@ -25,7 +25,7 @@ def work_with_phonebook():
                 lastName = input('Введите фамилию абонента: ')
                 print(find_by_lastname(phone_book, lastName))
 
-            elif choice == 3: # файл Task3.py        -----    ТЕСТ НЕ ПРОЙДЕН!    -----
+            elif choice == 3: # файл Task3.py        +++++    ТЕСТ УСПЕШНО ПРОЙДЕН!    +++++
                 number = input('Введите телефон абонента: ')
                 print(find_by_number(phone_book, number))
 
